@@ -1,0 +1,16 @@
+.card {
+    border-radius: 12px;
+    border: none;
+    margin-top: 10%;
+  }
+  .text-warning {
+    font-size: 1rem;
+  }
+ 
+ 
+ .review.card{
+  margin-top: 10%;
+ }
+ .rating.card{
+  margin-top: 20%;
+ }

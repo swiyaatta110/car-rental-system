@@ -1,0 +1,85 @@
+.pros-cons-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-top: 8%;
+    justify-content: center;
+    margin-bottom: 6%;
+  }
+  
+  .pros-cons-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .pros-cons {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .pros,
+  .cons {
+    flex: 1;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #f9f9f9;
+  }
+  
+  .pros {
+    background-color: #e8fbee;
+  }
+  
+  .cons {
+    background-color: #fdeeee; }
+  
+  .pros h3,
+  .cons h3 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .pros h3 i {
+    color: green;
+  }
+  
+  .cons h3 i {
+    color: red;
+  }
+  
+  .pros ul,
+  .cons ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .pros ul li,
+  .cons ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .pros ul li::before {
+    content: "•";
+    color: green;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .cons ul li::before {
+    content: "•";
+    color: red;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  

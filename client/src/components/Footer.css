@@ -1,0 +1,43 @@
+.footer {
+    background-color: #2e2d2d; /* Black background */
+    color: #fff; /* White text */
+    padding: 40px 0; /* Space around the footer */
+    margin-top: 14%;
+  }
+ .container{
+    margin-bottom: 5%;
+ }
+  .footer-heading {
+    color: #f8f9fa; /* Slightly lighter white for headings */
+    margin-bottom: 20px;
+  }
+  
+  .footer p, .footer a {
+    color: #dcdcdc; /* Light gray for text and links */
+    font-size: 14px;
+  }
+  
+  .footer a:hover {
+    text-decoration: none;
+    color: #ffffff; /* White on hover */
+  }
+  
+  .footer-links {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links li a {
+    text-decoration: none;
+  }
+  
+  .footer-copy {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #888; /* Subtle gray for copyright text */
+  }
+  

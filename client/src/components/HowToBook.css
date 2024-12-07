@@ -1,0 +1,238 @@
+
+
+.how-to-book-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    text-align: left;
+    margin-top: 7%;
+    margin-left: 50%;
+   
+    
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: 540;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .steps {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .step {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  
+  .step-number {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #64c864;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .step-content {
+    flex: 1;
+  }
+  
+  .step-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .step-description {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+  }
+
+  
+  .notification {
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .notification-icon {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    color: #222;
+    line-height: 1.5;
+    margin: 10px 0;
+  }
+  
+  .highlight {
+    color: #66bb6a; 
+  }
+  
+  p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .know-more-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #66bb6a;
+    background-color: transparent;
+    border: 1px solid #66bb6a;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .know-more-btn:hover {
+    background-color: #66bb6a;
+    color: white;
+  }
+
+.how-to-book-page {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: flex-start; 
+  gap: 20px; 
+  padding: 20px;
+}
+
+
+.how-to-book-container {
+  flex: 2; 
+  max-width: 800px;
+  margin: 0;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  text-align: left;
+  /* background-color: #f8f9fa; */
+  border-radius: 10px;
+
+}
+
+.list-your-vehicle-wrapper {
+  position: relative;
+  flex: 1;
+  max-width: 800px;
+
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-right: 8%;
+  margin-top: 7%;
+
+}
+
+.background-image {
+  width: 200%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.list-your-vehicle-container {
+  position: relative;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.notification {
+  font-size: 14px;
+  color: black;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.notification-icon {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #222;
+}
+
+.highlight {
+  color: #66bb6a;
+}
+
+p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.know-more-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #66bb6a;
+  background-color: transparent;
+  border: 1px solid #66bb6a;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.know-more-btn:hover {
+  background-color: #66bb6a;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
